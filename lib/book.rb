@@ -19,4 +19,5 @@ class Book
   def genre=(genre)
     @genre = genre
     GENRES.push(genre)
+  end
 end
