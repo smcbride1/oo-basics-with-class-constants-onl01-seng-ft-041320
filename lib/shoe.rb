@@ -5,7 +5,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.push(brand) if array.detect { |b| b == brand}
+    BRANDS.push(brand) if array.detect { |b| b == brand }
   end
 
   def cobble
